@@ -1,0 +1,8 @@
+/build
+/.idea
+/amplify
+/lib/amplifyconfiguration.dart
+/.flutter-plugins
+/.flutter-plugins-dependencies
+/.packages
+/.dart_tool
