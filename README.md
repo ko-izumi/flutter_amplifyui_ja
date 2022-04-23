@@ -1,16 +1,16 @@
 # flutter_amplifyui_ja
 
-A new Flutter application.
+Flutter x Amplify UIの日本語化
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+```shell
+amplify initあるいはamplify pull --appId [あなたのアプリID]
+```
 
-A few resources to get you started if this is your first Flutter project:
+amplify pullの場合、以下も要実行した上でbuildすること
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+```shell
+amplify codegen models
+```
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
